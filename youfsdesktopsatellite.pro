@@ -6,7 +6,8 @@ TEMPLATE = app
 TARGET = youfs 
 DEPENDPATH += .
 INCLUDEPATH += .
+QT += network
 
 # Input
-HEADERS += connectionwidget.h
-SOURCES += connectionwidget.cpp main.cpp
+HEADERS += connectionwidget.h clientthread.h
+SOURCES += connectionwidget.cpp clientthread.cpp main.cpp
