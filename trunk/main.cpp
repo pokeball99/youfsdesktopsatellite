@@ -3,7 +3,7 @@
 #include <QPushButton>
 
 #include "connectionwidget.h"
-
+#include "clientthread.h"
 
 class MainWindow : public QWidget
 {
